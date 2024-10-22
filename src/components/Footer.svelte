@@ -8,8 +8,8 @@
         <p><b class="pr-2 text-red-500">Email</b> bhattacharjeeanurag3@gmail.com </p>
         <p>
             <b class="pr-2 text-gray-500">GitHub</b>
-            <a href=" " target="_blank" class="text-violet-400"
-                >Darkmode Worker<sup class=""
+            <a href="https://www.github.com/DarkmodeWorking" target="_blank" class="text-violet-400"
+                >Darkmode Working<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
