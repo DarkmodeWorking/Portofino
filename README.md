@@ -1,38 +1,36 @@
-# create-svelte
+# Portofino
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Welcome to my official portfolio called PORTOFINO.
 
-## Creating a project
+Explore my portfolio website which to learn about me, have a look at my projects and if you wish then possibly contact me.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Load into your system
+Follow the steps to use it in your local system.
+- Step 1: ```git clone https://github.com/DarkmodeWorking/Portofino.git```
+- Step 2: ```cd Portofino```
+- Step 3: ```npm i```
+- Step 4: ```npm run dev```
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Visiting Link
+Click [HERE](https://portfolio-portofino.vercel.app) to visit.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Technology Used
 
-## Developing
+### Language
+![javascript](https://img.shields.io/badge/javascript-000?style=for-the-badge&logo=javascript)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Environment
+![node.js](https://img.shields.io/badge/node.js-000?style=for-the-badge&logo=node.js)
 
-```bash
-npm run dev
+### Dependencies
+![svelte](https://img.shields.io/badge/svelte-000?style=for-the-badge&logo=svelte)
+![tailwindcss](https://img.shields.io/badge/tailwindcss-000?style=for-the-badge&logo=tailwindcss)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Package Manager
+![npm](https://img.shields.io/badge/npm-000?style=for-the-badge&logo=npm&logoColor=red)
 
-## Building
+### Hosting Service
+![vercel](https://img.shields.io/badge/vercel-000?style=for-the-badge&logo=vercel)
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Mention
+This portfolio has been inspired from [James McArthur](https://www.youtube.com/@smoljames?si=838EiTo-kBdtAH8G) who is an awesome instructor and his videos are super helful for learning.
