@@ -4,7 +4,7 @@ import Step from "./Step.svelte";
 
 let steps = [
     {
-        name: "Nebula",
+        name: "Riverside",
         icon: "fa-solid fa-blog",
         description: "LoL",
     },
@@ -17,6 +17,30 @@ let steps = [
         name: "Kyalami",
         icon: "fa-solid fa-music",
         description: "LoL",
+    },
+    {
+        name: 'Paul Ricard',
+        icon: "fa-solid fa-robot",
+    },
+    {
+        name: "Vegas",
+        icon: "fa-solid fa-tv"
+    },
+    {
+        name: "Mugello",
+        icon: "fa-solid fa-envelope"
+    },
+    {
+        name: "Sebring",
+        icon: "fa-brands fa-space-awesome"
+    },
+    {
+        name: "Adelaide",
+        icon: "fa-solid fa-image"
+    },
+    {
+        name: "Suzuka",
+        icon: "fa-brands fa-bluesky"
     }
 ]
 
@@ -78,13 +102,31 @@ let benefits = [
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p> Nebula is a Blog Web Application made using <strong class="text-violet-400"> React | Tailwind | Appwrite</strong>. Users can login and write their own blogs or read others blogs. </p>
+                <p> Riverside is a Blog Web Application made using <strong class="text-violet-400"> React | Tailwind | Appwrite</strong>. Users can login and write their own blogs or read others blogs. </p>
             </Step>
             <Step step={steps[1]}>
                 <p> Marina Bay is a Hotel Booking website made using <strong class="text-violet-400"> NextJS | React | Sanity.IO | Tailwind | Stripe</strong>. Users can book hotels with regular leave applications. </p>
             </Step>
             <Step step={steps[2]}>
                 <p> Kyalami is a music web application made using <strong class="text-violet-400"> Django</strong>. Users can listen to music here. </p>
+            </Step>
+            <Step step={steps[3]}>
+                <p> Paul Ricard is a SaaS AI Chatbot made using <strong class="text-violet-400"> React | Node | MongoDB | Express</strong>. Users can chat with it for fun. </p>
+            </Step>
+            <Step step={steps[4]}>
+                <p> Vegas is a video streaming and creating mobile app made using <strong class="text-violet-400"> Flutter | Firebase | Riverpod</strong>. Users can chat with it for fun. </p>
+            </Step>
+            <Step step={steps[5]}>
+                <p> Mugello is a E-mail web application made using <strong class="text-violet-400"> VueJS | Laravel</strong>. Users can send and receive mail. </p>
+            </Step>
+            <Step step={steps[6]}>
+                <p> Sebring is a Wormhole Shooting mini-game made using <strong class="text-violet-400"> 3JS</strong>. Users can shoot objects inside wormhole and have tons of fun. </p>
+            </Step>
+            <Step step={steps[7]}>
+                <p> Adelaide is a image storing website made using <strong class="text-violet-400"> NextJS | Cloudinary</strong>. Users can shoot objects inside wormhole and have tons of fun. </p>
+            </Step>
+            <Step step={steps[8]}>
+                <p> Suzuka is a Twitter-clone made using <strong class="text-violet-400"> NextJS | Supabase</strong>. Users can do tweets and follows and comments to each other. </p>
             </Step>
         </div>
     </section>
