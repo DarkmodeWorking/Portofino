@@ -16,3 +16,26 @@ html {
 /* h1, h2, h3, .poppins {
     font-family: 'Poppins', sans-serif;
 } */
+
+.blueShadow {
+    box-shadow: 0px 25px 75px rgba(104, 10, 255, 0.45);
+}
+
+/* .specialSpin {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+.img {
+    object-position: center;
+    object-fit: cover;
+}
