@@ -23,7 +23,7 @@
         </button>
     </div>
     <Header y={y} />
-    <div class="mx-5 sm:mx-16">   
+    <div class="mx-1 sm:mx-16">   
         <slot />  
     </div>
     <Footer />
