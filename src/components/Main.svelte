@@ -78,12 +78,13 @@ let benefits = [
             <p class="text-base sm:text-lg md:text-xl">
                 <span class="text-violet-400"> Working with </span> Javascript | Python | C++
             </p>
-            <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#" target="_blank">
+            <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href=" " target="_blank">
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
                 <h4 class="relative z-9"> Get In Touch &rarr; </h4>
             </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
+            <!-- svelte-ignore a11y-img-redundant-alt -->
             <img src={"images/port-removebg-preview.png"} alt="Profile Image" class="object-cover z-[2] max-h-[70vh]" />
         </div>
     </section>
@@ -140,9 +141,7 @@ let benefits = [
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
-                    <p
-                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
-                    >
+                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
                         0{index + 1}
                     </p>
                     <div class="flex flex-col gap-6 sm:gap-8">
