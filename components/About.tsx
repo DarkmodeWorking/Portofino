@@ -10,14 +10,15 @@ type TimelineEvent = {
 };
 
 const edu: TimelineEvent[] = [
-  { year: "2010 — 2020", title: "ICSE", desc: "St. Xaviers Instituition", img: "https://media.licdn.com/dms/image/v2/D4D0BAQHCqC1EokZHgA/company-logo_200_200/company-logo_200_200/0/1686644200230/st_xaviers_institution_logo?e=1761782400&v=beta&t=M2i0kWhM6c1EacYG4fb8FH7a7RcmhowOjLU1f2PATPo" },
-  { year: "2020 — 2022", title: "ISC (Science)", desc: "St. Xaviers Instituition", img: "https://media.licdn.com/dms/image/v2/D4D0BAQHCqC1EokZHgA/company-logo_200_200/company-logo_200_200/0/1686644200230/st_xaviers_institution_logo?e=1761782400&v=beta&t=M2i0kWhM6c1EacYG4fb8FH7a7RcmhowOjLU1f2PATPo" },
-  { year: "2022 — 2026", title: "BTech CSE", desc: "Guru Nanak Institute of Technology", img: "https://media.licdn.com/dms/image/v2/C4D0BAQGVdTueWoZ0Eg/company-logo_100_100/company-logo_100_100/0/1660843902959?e=1761782400&v=beta&t=yjKk6Gt2c0uXfSHEUtZnZ3CMpfhAAikfLsJo9pyt0wE" },
+  { year: "2010 — 2020", title: "ICSE", desc: "St. Xaviers Instituition", img: "https://media.licdn.com/dms/image/v2/D4D0BAQHCqC1EokZHgA/company-logo_200_200/company-logo_200_200/0/1686644200230/st_xaviers_institution_logo?e=1764806400&v=beta&t=GzhVV_v6u3fG0TS1JybvYfUAYw4ybXTIM0h2j3743nY" },
+  { year: "2020 — 2022", title: "ISC (Science)", desc: "St. Xaviers Instituition", img: "https://media.licdn.com/dms/image/v2/D4D0BAQHCqC1EokZHgA/company-logo_200_200/company-logo_200_200/0/1686644200230/st_xaviers_institution_logo?e=1764806400&v=beta&t=GzhVV_v6u3fG0TS1JybvYfUAYw4ybXTIM0h2j3743nY" },
+  { year: "2022 — 2026", title: "BTech CSE", desc: "Guru Nanak Institute of Technology", img: "https://media.licdn.com/dms/image/v2/C4D0BAQGVdTueWoZ0Eg/company-logo_200_200/company-logo_200_200/0/1660843902959?e=1764806400&v=beta&t=v6Kvks7PZpZwLJmIKFZIqI4baPjn8aNWqwC8xKqwiek" },
 ];
 
 const work: TimelineEvent[] = [
-  { year: "Dec 24 — Apr 25", title: "SDE Intern", desc: "Noi Software Pvt. Ltd.", img: "https://media.licdn.com/dms/image/v2/C5103AQFu6tOpQaxwKg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1560429085017?e=1761782400&v=beta&t=nvGSjqnATq4yV7EwZeGMFS0xYfKOoQSBcF03rUxKMCg" },
-  { year: "Jun 25 — Sep 25", title: "Lead Organizer", desc: "MetaMorph 2K25", img: "https://media.licdn.com/dms/image/v2/D560BAQHxrktwDs6A_Q/company-logo_200_200/B56Zc7Fc5_GQAI-/0/1749042976718/metamorph2k25_logo?e=1761782400&v=beta&t=zUgITNJlm86uu8wg3Bh4ypmEi5uZnAqkuAK9dvddLc4"}
+  { year: "Dec 24 — Apr 25", title: "SDE Intern", desc: "Noi Software Pvt. Ltd.", img: "https://media.licdn.com/dms/image/v2/C5103AQFu6tOpQaxwKg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1560429085017?e=1764806400&v=beta&t=-ePcjKOAmTW1X_VygeYoG6MxmvU10tchYti-Nv66VqM" },
+  { year: "May 25 — Sep 25", title: "Lead Organizer", desc: "MetaMorph 2K25", img: "https://media.licdn.com/dms/image/v2/D560BAQHxrktwDs6A_Q/company-logo_200_200/B56Zc7Fc5_GQAI-/0/1749042976718/metamorph2k25_logo?e=1764806400&v=beta&t=jEEXrRwxaRYdjEeSs6ZlJfINjLyyHZIx-qMJXCv1Rrc"},
+  { year: "Oct 25 — Current", title: "Design Engineer", desc: "Aesthe UI", img: "https://media.licdn.com/dms/image/v2/D560BAQEOILTh5nHGIQ/company-logo_200_200/B56Zn5GVyyJkAI-/0/1760820815056/divsculpt1_logo?e=1764806400&v=beta&t=pMVaE88O226jyBrUjgDFk_FGg-IKLSoAZiEl-3L-aCI"}
 ];
 
 export default function About() {
@@ -55,7 +56,7 @@ export default function About() {
 
                   {/* Left Content */}
                   <div className="flex-1">
-                    <h3 className="text-xs sm:text-md font-semibold text-rose-200 drop-shadow-[0_0_20px_rgb(255,46,158)]">
+                    <h3 className="text-xs sm:text-lg font-semibold text-rose-200 drop-shadow-[0_0_20px_rgb(255,46,158)]">
                       {event.year} : {event.title}
                     </h3>
                     <p className="text-rose-100 mt-1 text-xs sm:text-base">{event.desc}</p>
