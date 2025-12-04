@@ -18,7 +18,7 @@ const edu: TimelineEvent[] = [
 const work: TimelineEvent[] = [
   { year: "Dec 24 — Apr 25", title: "SDE Intern", desc: "Noi Software Pvt. Ltd.", img: "https://media.licdn.com/dms/image/v2/D560BAQGujC47m2JDKg/company-logo_200_200/B56Zop.jTWHkAI-/0/1761640855544?e=1766620800&v=beta&t=sS_TcCNrpGTzw_yGalg5WikroeGByw2DIorp8xIGcU0" },
   { year: "Oct 25 — Current", title: "Design Engineer", desc: "Aesthe UI", img: "https://media.licdn.com/dms/image/v2/D560BAQEOILTh5nHGIQ/company-logo_200_200/B56Zn5GVyyJkAI-/0/1760820815056/divsculpt1_logo?e=1766620800&v=beta&t=Q7mcPGOhS2GxGJL7sXqGkwzpdyysMTjHzSKvbnrkHK0"},
-  { year: "TBD - TBD", title: "Analyst Trainee", desc: "Cognizant", img: "https://media.licdn.com/dms/image/v2/D4E0BAQFZH4svu5BTZA/company-logo_200_200/B4EZk_EfNgHgAM-/0/1757699778309/cognizant_logo?e=1766620800&v=beta&t=y-MW-F5X3vtJzDWFUochauNdlVcv91K-haa0EB5a8ok"},
+  { year: "TBD - TBD", title: "Analyst Trainee", desc: "Cognizant Technology Solutions", img: "https://media.licdn.com/dms/image/v2/D4E0BAQFZH4svu5BTZA/company-logo_200_200/B4EZk_EfNgHgAM-/0/1757699778309/cognizant_logo?e=1766620800&v=beta&t=y-MW-F5X3vtJzDWFUochauNdlVcv91K-haa0EB5a8ok"},
 ];
 
 export default function About() {
