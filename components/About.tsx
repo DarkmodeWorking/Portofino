@@ -55,7 +55,7 @@ const fullTime: TimelineEvent[] = [
     year: "SOMEDAY",
     title: "Simulations Engineer",
     desc: "Mercedes AMG F1 Team - Brackley | GBR",
-    img: "https://media.licdn.com/dms/image/v2/D4E0BAQGf_3l-L9__7A/company-logo_200_200/B4EZa1kC6sHkAI-/0/1746802848505/mercedes_amg_petronas_formula_one_team_logo?e=1768435200&v=beta&t=KpYknOdB3YhwVG5JP5oB2lKqS9RMlRHXbXGdPGxN4wU",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHJcGYv75GXkA/company-logo_200_200/B4DZt4.udgK0AI-/0/1767261268241/mercedes_amg_petronas_formula_one_team_logo?e=1769040000&v=beta&t=pcZCfeoLZ9vUhgRvbKoXJw6cl2hpfNDKGThJLayKV3c",
   },
   // {
   //   year: "TBD — TBD",
