@@ -45,14 +45,44 @@ export default function Hero() {
           viewport={{ once: true }}
         >
           <motion.h1
-            className="mt-6 text-xl md:text-3xl font-extrabold text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] leading-tight"
+            className="mt-6 text-xl md:text-5xl font-extrabold text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] leading-tight"
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             Hi I am Anurag Bhattacharjee <br />
-            Software Developer from India
+            Software Developer from
           </motion.h1>
+
+          <div className="flex mt-10 text-xl md:text-5xl font-extrabold overflow-visible">
+            <motion.h1
+              className="text-orange-200 [text-shadow:0_0_70px_rgb(100,100,255)]"
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+            >
+              IN
+            </motion.h1>
+
+            <motion.h1
+              className="text-neutral-200 [text-shadow:0_0_70px_rgb(100,100,255)]"
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+            >
+              D
+            </motion.h1>
+
+            <motion.h1
+              className="text-green-200 [text-shadow:0_0_70px_rgb(100,100,255)]"
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+            >
+              IA
+            </motion.h1>
+          </div>
+
 
           <motion.p
             className="mt-6 md:mt-12 text-base md:text-lg text-rose-100 max-w-md mx-auto md:mx-0"

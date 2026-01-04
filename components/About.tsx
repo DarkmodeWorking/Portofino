@@ -23,7 +23,7 @@ const school: TimelineEvent[] = [
 const college: TimelineEvent[] = [
   {
     year: "2022 — 2026",
-    title: "BTech CSE",
+    title: "BTech Computer Science",
     desc: "Guru Nanak Institute of Technology",
     img: "https://media.licdn.com/dms/image/v2/C4D0BAQGVdTueWoZ0Eg/company-logo_200_200/company-logo_200_200/0/1660843902959?e=1768435200&v=beta&t=LL5E8swTRKyF9BJl3QOKthyM8BBxviOAGasrfvlxwOI",
   },
@@ -149,7 +149,7 @@ export default function About() {
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] mb-20 text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl  text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] mb-20 text-center">
           Get to know about me
         </h2>
 

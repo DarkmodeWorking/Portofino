@@ -49,7 +49,7 @@ export default function Header() {
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-2xl md:text-3xl font-bold text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)]"
+          className="text-2xl md:text-3xl  text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)]"
         >
           THEME VICE_
         </motion.div>

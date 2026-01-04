@@ -63,7 +63,7 @@ export default function Projects() {
 
       {/* Section Content */}
       <div className="relative mx-auto">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 sm:mb-20 md:mb-32 text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] text-center">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl mb-12 sm:mb-20 md:mb-32 text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] text-center">
           Developed Projects such as
         </h2>
 

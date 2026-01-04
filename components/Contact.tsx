@@ -23,14 +23,14 @@ export default function Contact() {
 
       <div className="relative max-w-4xl mx-auto text-center text-rose-100">
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] mb-10">
+        <h2 className="text-4xl md:text-7xl  text-rose-100 drop-shadow-[0_0_20px_rgb(255,46,158)] mb-16">
           Scrolled till here?
         </h2>
 
         {/* Subtext */}
-        <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto text-rose-100/90">
+        <p className="text-lg md:text-2xl mb-16 max-w-2xl mx-auto text-rose-100/90">
           If you have a question, a project idea, or just want to connect, I&apos;d love to hear from you!  
-          <span className="font-bold text-rose-200"> ADIOS AMIGO</span> 🚀
+          <span className=" text-rose-200"> ADIOS AMIGO</span> 🚀
         </p>
 
         {/* Social Icons */}
@@ -57,8 +57,9 @@ export default function Contact() {
         </div>
 
         {/* Footer Line */}
-        <div className="mt-16 text-sm text-rose-100/70">
-          Built with ❤️ and Vice City vibes
+        <div className="mt-16 text-xl text-rose-100/70">
+          Built with ❤️ and Vice City vibes <br />
+          <span className="text-sm mt-40">one day I&apos;m gonna save your ass, and you&apos;re probably gonna wanna kiss me!</span>
         </div>
       </div>
     </section>
